@@ -2,26 +2,92 @@
 @tailwind components;
 @tailwind utilities;
 
-:root {
-  --background: #ffffff;
-  --foreground: #171717;
+.header{
+  height: 65px;
+  background-color:rgb(247, 174, 109);
+  color:rgb(247, 107, 91);
+  padding: 5px;
+
+font-family: 'Times New Roman', Times, serif;
+  
+}
+.header_button{
+  display: flex;
+  font-size:30px;
+  justify-content: center;
+  align-items: center;
+  gap: 100px;   
+
+  
+}
+.home_container{
+  background-color: rgb(241, 146, 136);
+  font-weight: bold;
+  font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+  color: rgb(201, 97, 5);
+  height: 600px;
+  display: flex;
+  justify-content: space-between;
+
+}
+.child_container{
+  font-size: 45px;
+  text-align: left;
+  padding: 30px;
+  
+  
+
+}
+.image_container{
+  /* width: 250px;
+  height: 250px; */
+  border-radius: 50%;
+  
+  /* background-color: aqua; */
+  margin-top: 55px;
+  margin-right: 100px;
+  
 }
 
-@media (prefers-color-scheme: dark) {
-  :root {
-    --background: #0a0a0a;
-    --foreground: #ededed;
-  }
+.contact_container{
+  background-color: rgb(241, 146, 136);;
+  font-size: 45px;
+  height: 600px;
+  text-align: center;
+  padding-top: 50px;
+  
+  
+}
+.about_container{
+  background-color:rgb(249, 162, 153);
+  font-size: 45px;
+  height: 600px;
+  text-align: center;
+  padding-top: 50px;
+}
+.job_container{
+   background-color:rgb(249, 162, 153);
+  font-size: 45px;
+  height: 600px;
+  text-align: center;
+  padding-top: 50px;
 }
 
-body {
-  color: var(--foreground);
-  background: var(--background);
-  font-family: Arial, Helvetica, sans-serif;
+.footer{
+  height: 65px;
+   background-color:rgb(247, 174, 109);
+  color:rgb(58, 6, 75);
+  padding: 5px;
+
+font-family: 'Times New Roman', Times, serif;
 }
 
-@layer utilities {
-  .text-balance {
-    text-wrap: balance;
-  }
+.footer_button{
+  display: flex;
+  font-size:30px;
+  justify-content: center;
+  align-items: center;
+  gap: 100px;   
+
+
 }
